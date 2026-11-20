@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Do not edit the NEW_VERSION and VERSION_DATE fields, they will be updated automatically by the Github Action script.
 
 ## [<NEW_VERSION>] - <VERSION_DATE>
+### Changed
+- Template description states the variable returns undefined when either UTM exists or fbclid is missing
 ### Fixed
 - Gallery metadata.yaml versions list is valid YAML, and later releases keep that list valid
 

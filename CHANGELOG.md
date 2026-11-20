@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Do not edit the NEW_VERSION and VERSION_DATE fields, they will be updated automatically by the Github Action script.
 
 ## [<NEW_VERSION>] - <VERSION_DATE>
+### Added
+### Changed
+### Fixed
+
+## [0.1.0] - 2026-11-20 (by @slazak)
 ### Changed
 - Template display name is Meta Attribution Fix variable by Backona
 ### Added

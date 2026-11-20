@@ -5,6 +5,12 @@ homepage: "https://backona.com"
 documentation: "https://github.com/backona/gtm-meta-attribution-fix-variable/blob/main/README.md"
 
 versions:
+  - sha: e0804b5022bfc7095ec76150fda681c5780ec489
+    changeNotes: |
+      ### Changed
+      - Template description states the variable returns undefined when either UTM exists or fbclid is missing
+      ### Fixed
+      - Gallery metadata.yaml versions list is valid YAML, and later releases keep that list valid
   - sha: 72b0fdc3be9f579560a45ce3b039c2e0fbe365b3
     changeNotes: |
       ### Changed

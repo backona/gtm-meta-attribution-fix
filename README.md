@@ -14,7 +14,7 @@ Release history: [CHANGELOG.md](./CHANGELOG.md).
 
 1. In Google Tag Manager, go to **Templates** → **Variable Templates** → **New**.
 2. Open the menu (⋮) → **Import** → select [`template.tpl`](./template.tpl) from this repository → **Save**.
-3. Create a variable from **Backona Analytics - Meta Attribution Fix**.
+3. Create a variable from **Meta Attribution Fix variable by Backona**.
    - **Output Mode:** Campaign Source
    - **Source Value:** `facebook` (or your own source)
 4. Create a second variable from the same template.

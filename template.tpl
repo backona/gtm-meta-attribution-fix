@@ -12,7 +12,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Backona Analytics - Meta Attribution Fix",
+  "displayName": "Meta Attribution Fix variable by Backona",
   "categories": [
     "ANALYTICS",
     "ATTRIBUTION"
@@ -102,7 +102,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 /**
- * Backona Analytics - Meta Attribution Fix
+ * Meta Attribution Fix variable by Backona
  * Variable: fallback GA4 campaign source or medium for untagged fbclid landings.
  */
 const getQueryParameters = require('getQueryParameters');
@@ -356,7 +356,7 @@ scenarios:
 
 ___NOTES___
 
-Backona Analytics - Meta Attribution Fix variable.
+Meta Attribution Fix variable by Backona.
 Create two variables: Campaign Source (default facebook) and Campaign Medium (default organic).
 Create two variables: one set to campaign_source and one set to campaign_medium in the GA4 config tag Shared event settings.
 The variable returns undefined when fbclid is missing or when utm_source or utm_medium is already on the URL.

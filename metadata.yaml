@@ -5,3 +5,11 @@ homepage: "https://backona.com"
 documentation: "https://github.com/backona/gtm-meta-attribution-fix-variable/blob/main/README.md"
 
 versions: []
+  - sha: 72b0fdc3be9f579560a45ce3b039c2e0fbe365b3
+    changeNotes: |
+      ### Changed
+      - Template display name is Meta Attribution Fix variable by Backona
+      ### Added
+      - Meta Attribution Fix GTM variable template: fallback campaign source (`facebook`) or medium (`organic`) when `fbclid` is present and both `utm_source` and `utm_medium` are missing
+      - Template preview help: create one variable for `campaign_source` and one for `campaign_medium` in the GA4 config tag Shared event settings; the variable returns undefined when `fbclid` is missing or a UTM is already on the URL
+      - Unit tests for custom source and medium values, UTM letter case, empty `fbclid`, UTMs without `fbclid`, whitespace UTMs, and an unknown output mode
